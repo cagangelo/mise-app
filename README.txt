@@ -19,3 +19,15 @@ Sınırlar:
 - Son tüketim tarihlerini kullanıcı girmelidir; otomatik tahmin güvenilir değildir.
 - Kitapta ölçüsü belirsiz kalemler yaklaşıklaştırılmıştır ve makro bilgileri değişikliklere göre yeniden hesaplanmaz.
 - Örnek dolap onboarding sonunda eklenir; gerçek stokları girerek değiştir.
+
+MISE 1.4 — Bütçe ve Fiyat Hafızası (ek)
+- Market sekmesinde haftalık bütçeyi kaydedin.
+- "Manuel fiyat kaydet" alanına örneğin 1,2 kg tavuk / 360 TL girin.
+- "Fiş yükle" ile fotoğraftan metin tanımayı deneyebilirsiniz. OCR işlemi için ilk kullanımda internet ve harici Tesseract.js kütüphanesi gerekir. Türkçe fişlerde hata olabilir; satırları kaydetmeden denetleyin.
+- Fiş satırlarının beklenen biçimi: TAVUK 1,2 KG 360,00 (ürün, miktar, birim, fiyat). Diğer biçimler algılanmayabilir.
+- Fiyat hafızası, son üç kaydın birim fiyat ortalamasını kullanır.
+- Haftalık menü oluşturucu fiyatı bilinen ürünlerin tarif maliyetine göre yaklaşık seçim yapar. Bütçe ve kalori hedefini kesin olarak tutturma garantisi vermez; özellikle fiyatı bilinmeyen malzemeler maliyete dahil değildir.
+- Alışveriş listesindeki gösterilen tutarlar malzeme miktarının yaklaşık maliyetidir; market paket boyutu karşılaştırması bu sürümde yoktur.
+- Görsellerdeki ve ekrandaki stok miktarlarını kontrol edin. Fişten dolaba eklenen ürünlerde tarih varsayılandır, gerçek ambalaj tarihini elle düzeltin.
+- Mevcut veriler aynı site adresi ve tarayıcıda localStorage ile saklanır. Güncelleme öncesi profil menüsünden JSON yedeğinizi indirin.
+- Bu paket yüklenen 'mise-mobil-prototip(2).zip' üzerine geliştirilmiştir; daha önceki farklı sürümlerdeki özelliklerin tümünü içerdiği iddia edilmez.
