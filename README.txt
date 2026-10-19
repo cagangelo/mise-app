@@ -31,3 +31,5 @@ MISE 1.4 — Bütçe ve Fiyat Hafızası (ek)
 - Görsellerdeki ve ekrandaki stok miktarlarını kontrol edin. Fişten dolaba eklenen ürünlerde tarih varsayılandır, gerçek ambalaj tarihini elle düzeltin.
 - Mevcut veriler aynı site adresi ve tarayıcıda localStorage ile saklanır. Güncelleme öncesi profil menüsünden JSON yedeğinizi indirin.
 - Bu paket yüklenen 'mise-mobil-prototip(2).zip' üzerine geliştirilmiştir; daha önceki farklı sürümlerdeki özelliklerin tümünü içerdiği iddia edilmez.
+
+1.6: İlk kurulumda ekipman seçimi, profilde düzenleme ve tariflerde ekipman filtresi. Ekipman gereksinimleri tarif adına göre tahminidir; belirsiz tariflerde etiket gösterilir.
